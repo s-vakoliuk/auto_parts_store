@@ -1,0 +1,54 @@
+
+@media only screen and (max-width: 1600px) {
+    .menu-right-burger{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .wrapper {
+        max-width: 850px;
+        padding: 0 10px;
+    }
+
+    .menu-right-view {
+        display: none;
+    }
+
+    .menu-right-burger {
+        display: inline-block;
+    }
+
+    .timetable-location {
+        width: 33.333%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .whatsapp-phone-feedback {
+        width: 33.333%;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px) {
+     /*font-size: 24px;*/
+    .text-logo-title{
+        font-size: 14px;
+    }
+    .text-logo-sub {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+    .catalog-btn__text {
+        display: none;
+    }
+}
